@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Home🦉</title>
+</head>
+<body>
+
+  <div class="maindiv">
+
+    <!--Search Box & Button-->
+    <div class="search">
+      <input type="text" id="search-input" placeholder="  Search on Google..." onkeydown="if (event.key === 'Enter') searchGoogle()">
+      <!-- <button id="search-btn" onclick="searchGoogle()">🔎</button> -->
+    </div>
+    
+    <!--Links Widgets-->
+    <div id="apps-container">
+      
+      <a href="https://youtube.com" target="_blank">
+        <img src="/icons/youtube.png" style="height: 30px; width: auto;">
+        <div class="label">
+          <span class="name">YouTube</span>
+        </div>
+      </a>
+
+      <a href="https://github.com/" id="link2" target="_blank">
+        <img src="/icons/github.png" style="height: 30px; width: auto;">
+        <div class="label">
+          <span class="name">Github</span>
+        </div>
+      </a>
+
+      <a href="https://chat.openai.com" target="_blank">
+        <img src="/icons/chatgpt.png" style="height: 30px; width: auto;">
+        <div class="label">
+          <span class="name">ChatGPT</span>
+        </div>
+      </a>
+
+      <a href="https://gmail.com/" target="_blank">
+        <img src="/icons/gmail.png" style="height: 30px; width: auto;">
+        <div class="label">
+          <span class="name">GMail</span>
+        </div>
+      </a>
+
+      <a href="https://studentportal.silveroakuni.ac.in/" target="_blank">
+        <img src="/icons/silveroak.jpg" style="height: 37px; width: auto;">
+        <div class="label">
+          <span class="name">SoU</span>
+        </div>
+      </a>
+   
+      <a href="https://drive.google.com/" target="_blank">
+        <img src="/icons/drive.png" style="height: 30px; width: auto;">
+        <div class="label">
+          <span class="name">Drive</span>
+        </div>
+      </a>
+  
+      <a href="https://bard.google.com/" target="_blank">
+        <img src="/icons/bard.png" style="height: 30px; width: auto;">
+        <div class="label">
+          <span class="name">Bard</span>
+        </div>
+      </a>
+
+      <a href="https://in.linkedin.com/" target="_blank">
+        <img src="/icons/linkedin.png" style="height: 30px; width: auto;">
+        <div class="label">
+          <span class="name">LinkedIn</span>
+        </div>
+      </a>
+
+      <a href="https://classroom.google.com/" id="link" target="_blank">
+        <img src="/icons/class.png" style="height: 30px; width: auto;">
+        <div class="label">
+          <span class="name">Classroom</span>
+        </div>
+      </a>
+
+    </div>
+
+    <!--Watermark-->
+    <p id="watermark">Made by <a href="#" id="watermark" target="_blank">HDz🦉</a></p>
+
+  </div>
+
+  <!--JavaScript For Searchbox-->
+  <script>
+    function searchGoogle() {
+      var searchTerm = document.getElementById('search-input').value;
+        if (searchTerm.trim() !== '') {
+      var googleSearchUrl = 'https://www.google.com/search?q=' + encodeURIComponent(searchTerm);
+        window.open(googleSearchUrl, '_blank');
+      }
+    }
+  </script>
+    
+</body>
+</html>
