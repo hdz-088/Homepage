@@ -71,7 +71,7 @@ body {
   padding: 2rem 4rem;
   padding-right: 32px;
   padding-left: 32px;
-  border-radius: 0.2rem;
+  border-radius: 100px;
   text-decoration: none;
 }
   
@@ -100,11 +100,13 @@ body {
 }
   
 #apps-container > a > .label > .name {
-  font-size: 1rem;  
+  font-size: 16px;
+  margin-top: 3px;
+  text-align: center;
 }
   
 #apps-container > a > .label > .url {
-  font-size: 0.7rem;
+  /* font-size: 0.7rem; */
   color: rgb(255 255 255 / 50%);
 }
   
@@ -112,18 +114,18 @@ body {
   background-color: rgb(255 255 255 / 16%);
 }
   
-#apps-container > a:first-child {
+/* #apps-container > a:first-child {
   border-top-left-radius: 0.9rem;
-}
+} */
   
 #apps-container > a:nth-child(2) {  
   color: rgb(0, 0, 0);
 }
   
-#apps-container > a:nth-child(3) {  
+/* #apps-container > a:nth-child(3) {  
   color: rgb(0, 85, 30);
   border-top-right-radius: 0.9rem;
-}
+} */
   
 #apps-container > a:nth-child(4) {  
   color: rgb(228, 28, 28);
@@ -133,14 +135,14 @@ body {
   color: rgb(228, 28, 28);
 }
   
-#apps-container > a:nth-child(7) {  
+/* #apps-container > a:nth-child(7) {  
   border-bottom-left-radius: 0.9rem;
-}
+} */
   
-#apps-container > a:last-child {
+/* #apps-container > a:last-child {
   color: rgb(15, 118, 14);
   border-bottom-right-radius: 0.9rem; 
-}
+} */
 
 #icons {
   text-shadow:1px 1px 10px #1629387b;
