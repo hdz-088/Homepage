@@ -1,108 +1,274 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="https://imgur.com/cf1lCfc.png">
-    <title>Home🦉</title>
-</head>
-<body>
-
-  <div class="maindiv">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage 🦉</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <!--Search Box & Button-->
     <div class="search">
-      <input type="text" id="search-input" placeholder="  Search on Google..." onkeydown="if (event.key === 'Enter') searchGoogle()">
-      <!-- <button id="search-btn" onclick="searchGoogle()">🔎</button> -->
+      <i class="fa-brands fa-brave"></i>
+      <input
+        type="text"
+        id="search-input"
+        placeholder="Search on Brave..."
+        onkeydown="if (event.key === 'Enter') searchBrave()"
+      />
     </div>
-    
-    <!--Links Widgets-->
-    <div id="apps-container">
-      
-      <a href="https://youtube.com" target="_blank">
-        <img src="https://i.imgur.com/d6xMz5Z.png" style="height: 30px; width: auto;">
-        <div class="label">
-          <span class="name">YouTube</span>
-        </div>
-      </a>
-
-      <a href="https://github.com/" id="link2" target="_blank">
-        <img src="https://i.imgur.com/tTRrxLw.png" style="height: 30px; width: auto;">
-        <div class="label">
-          <span class="name">Github</span>
-        </div>
-      </a>
-
-      <a href="https://chat.openai.com" target="_blank">
-        <img src="https://i.imgur.com/C1dnYRZ.png" style="height: 30px; width: auto;">
-        <div class="label">
-          <span class="name">ChatGPT</span>
-        </div>
-      </a>
-
-      <a href="https://gmail.com/" target="_blank">
-        <img src="https://i.imgur.com/Rd6WLnH.png" style="height: 30px; width: auto;">
-        <div class="label">
-          <span class="name">GMail</span>
-        </div>
-      </a>
-
-      <a href="https://stackoverflow.com/" target="_blank">
-        <img src="https://imgur.com/22Oa2Jv.png" style="height: 37px; width: auto;">
-        <div class="label">
-          <span class="name">Stackoverflow</span>
-        </div>
-      </a>
-   
-      <a href="https://drive.google.com/" target="_blank">
-        <img src="https://i.imgur.com/cjAtVVi.png" style="height: 30px; width: auto;">
-        <div class="label">
-          <span class="name">Drive</span>
-        </div>
-      </a>
-  
-      <a href="https://bard.google.com/" target="_blank">
-        <img src="https://i.imgur.com/jgNBEVZ.png" style="height: 30px; width: auto;">
-        <div class="label">
-          <span class="name">Bard</span>
-        </div>
-      </a>
-
-      <a href="https://in.linkedin.com/" target="_blank">
-        <img src="https://i.imgur.com/ICLoAkF.png" style="height: 30px; width: auto;">
-        <div class="label">
-          <span class="name">LinkedIn</span>
-        </div>
-      </a>
-
-      <a href="https://classroom.google.com/" id="link" target="_blank">
-        <img src="https://i.imgur.com/s6vPr8i.png" style="height: 30px; width: auto;">
-        <div class="label">
-          <span class="name">Classroom</span>
-        </div>
-      </a>
-
+    <div class="container">
+      <div class="card">
+        <h1>Bookmarks</h1>
+        &gt;
+        <a href="https://google.github.io/styleguide/" target="_blank"
+          >Google Style Guide</a
+        ><br />
+        &gt;
+        <a
+          href="https://kinsta.com/blog/react-components-library/"
+          target="_blank"
+          >React UI Library</a
+        ><br />
+        &gt;
+        <a
+          href="https://github.com/Lin-jun-xiang/awesome-vscode-extensions"
+          target="_blank"
+          >Top VSCode Extensions</a
+        ><br />
+        &gt;
+        <a href="https://github.com/ChrisTitusTech/winutil" target="_blank"
+          >Chris Titus Tech's Windows Utility</a
+        ><br />
+        &gt;
+        <a
+          href="https://github.com/avinashkranjan/Amazing-Python-Scripts"
+          target="_blank"
+          >Collection of Python Scripts</a
+        ><br />
+        &gt;
+        <a
+          href="https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code?tab=readme-ov-file"
+          target="_blank"
+          >500 AI ML DV NLP Projects</a
+        ><br />
+        &gt;
+        <a
+          href="https://github.com/ashishpatel26/Andrew-NG-Notes"
+          target="_blank"
+          >Andrew NG Notes</a
+        ><br />
+        &gt;
+        <a
+          href="https://github.com/sdmg15/Best-websites-a-programmer-should-visit"
+          target="_blank"
+          >Useful websites for programmers</a
+        ><br />
+        &gt;
+        <a
+          href="https://github.com/Ayushparikh-code/Amazing-Js-Projects"
+          target="_blank"
+          >Amazing JS Projects</a
+        ><br />
+        &gt;
+        <a
+          href="https://github.com/krishnadey30/LeetCode-Questions-CompanyWise"
+          target="_blank"
+          >Company Wise Leetcode</a
+        ><br />
+        &gt;
+        <a
+          href="https://github.com/ashishps1/awesome-leetcode-resources"
+          target="_blank"
+          >Leetcode Resources</a
+        ><br />
+        &gt;
+        <a href="https://awesome-python.com/" target="_blank"
+          >Python Libraries</a
+        ><br />
+        &gt;
+        <a
+          href="https://github.com/practical-tutorials/project-based-learning"
+          target="_blank"
+          >Project Based Learning</a
+        ><br />
+        &gt;
+        <a href="https://github.com/ndleah/python-mini-project" target="_blank"
+          >Python Mini Projects</a
+        ><br />
+        &gt;
+        <a
+          href="https://pythontutor.com/visualize.html#mode=edit"
+          target="_blank"
+          >Python Code Visualizer</a
+        ><br />
+        &gt;
+        <a href="https://gprm.itsvg.in/" target="_blank"
+          >Github Profile Generator</a
+        ><br />
+        &gt;
+        <a href="https://techdevguide.withgoogle.com/paths" target="_blank"
+          >Google Tech Dev Guide</a
+        ><br />
+        &gt;
+        <a
+          href="https://pythontutor.com/visualize.html#mode=edit"
+          target="_blank"
+          >Python Code Visualizer</a
+        ><br />
+      </div>
+      <div class="card">
+        <h1>Resources</h1>
+        &gt; <a href="https://uiverse.io/" target="_blank">UI Verse</a><br />
+        &gt;
+        <a href="https://www.shapedivider.app/" target="_blank">Shape Divider</a
+        ><br />
+        &gt;
+        <a href="https://app.haikei.app/" target="_blank"
+          >Haikei-Background Image</a
+        ><br />
+        &gt;
+        <a href="https://htmlcheatsheet.com/" target="_blank">HTML Cheatsheet</a
+        ><br />
+        &gt;
+        <a href="https://animista.net/" target="_blank"
+          >Animista-Animation Library</a
+        ><br />
+        &gt;
+        <a href="https://www.frontendmentor.io/challenges" target="_blank"
+          >Frontend Challenges</a
+        ><br />
+        &gt;
+        <a href="https://iconstore.co/" target="_blank">Iconstore-Icon Packs</a
+        ><br />
+        &gt;
+        <a href="https://www.flaticon.com/" target="_blank"
+          >Flaticons-Free Icon Store</a
+        ><br />
+        &gt;
+        <a href="https://mockupsforfree.com/" target="_blank"
+          >Mockups For Free</a
+        ><br />
+        &gt;
+        <a href="https://www.freepik.com/" target="_blank"
+          >Freepik-Vctor Graphics</a
+        ><br />
+        &gt;
+        <a href="https://carbon.now.sh/" target="_blank"
+          >Carbon-Share Your Code as Img</a
+        ><br />
+        &gt;
+        <a href="https://remove.bg/" target="_blank">Background Remover Tool</a
+        ><br />
+      </div>
+      <div class="card">
+        <h1>My Sites</h1>
+        &gt;
+        <a href="https://github.com/hdz-088/" target="_blank">GitHub hdz-088</a
+        ><br />
+        &gt;
+        <a
+          href="https://github.com/hdz-088/Python-Mini-Projects"
+          target="_blank"
+          >Python Mini Projects</a
+        ><br />
+        &gt;
+        <a href="https://hdz-088.github.io/Snapster/" target="_blank"
+          >Snapster</a
+        ><br />
+        &gt;
+        <a href="https://hdz-088.github.io/hdzala/" target="_blank">Portfolio</a
+        ><br />
+        &gt;
+        <a href="https://hdz-088.github.io/SoundVoyage/" target="_blank"
+          >SoundVoyage</a
+        ><br />
+        &gt;
+        <a href="https://hdz-088.github.io/Number-Guesser/" target="_blank"
+          >Number Guesser</a
+        ><br />
+        &gt;
+        <a href="https://hdz-088.github.io/Contact-Form/" target="_blank"
+          >Contact Form</a
+        ><br />
+        &gt;
+        <a href="https://hdz-088.github.io/SpaceEx/" target="_blank">SpaceEx</a
+        ><br />
+        &gt;
+        <a href="https://hdz-088.github.io/SOUNotes/" target="_blank"
+          >SOUNotes</a
+        ><br />
+        &gt;
+        <a href="https://github.com/hdz-088/CoffeeMachine" target="_blank"
+          >CoffeeMachine</a
+        ><br />
+        &gt;
+        <a href="https://hdz-088.github.io/Vidhyabase/" target="_blank"
+          >Vidhyabase</a
+        ><br />
+      </div>
     </div>
-
-    <!--Watermark-->
-    <p id="watermark">Made by <a href="https://hdz-088.github.io/Portfolio/" id="watermark" target="_blank">HDz🦉</a></p>
-
-  </div>
-
-  <!--JavaScript For Searchbox-->
-  <script>
-    function searchGoogle() {
-      var searchTerm = document.getElementById('search-input').value;
-        if (searchTerm.trim() !== '') {
-      var googleSearchUrl = 'https://www.google.com/search?q=' + encodeURIComponent(searchTerm);
-        window.open(googleSearchUrl, '_blank');
+    <div class="dock">
+      <a href="https://chatgpt.com/" target="_blank"
+        ><div class="licons">
+          <img src="assets/chatgpt.png" alt="" height="40px" /></div
+      ></a>
+      <a href="https://leetcode.com/" target="_blank"
+        ><div class="licons">
+          <img src="assets/leetcode.png" alt="" height="30px" /></div
+      ></a>
+      <a href="https://github.com" target="_blank"
+        ><div class="licons"><i class="fa-brands fa-github"></i></div
+      ></a>
+      <a href="https://vscode.dev/" target="_blank"
+        ><div class="licons"><i class="fa-solid fa-laptop-code"></i></div
+      ></a>
+      <a href="https://linkedin.com" target="_blank"
+        ><div class="licons"><i class="fa-brands fa-linkedin-in"></i></div
+      ></a>
+      <a href="https://my.nextdns.io/login" target="_blank"
+        ><div class="licons"><i class="fa-solid fa-shield-halved"></i></div
+      ></a>
+      <a href="https://youtube.com" target="_blank"
+        ><div class="licons"><i class="fa-brands fa-youtube"></i></div
+      ></a>
+      <a href="https://mail.google.com/" target="_blank"
+        ><div class="licons"><i class="fa-regular fa-envelope"></i></div
+      ></a>
+      <a href="https://drive.google.com/" target="_blank"
+        ><div class="licons"><i class="fa-brands fa-google-drive"></i></div
+      ></a>
+      <a href="https://docs.google.com/document/" target="_blank"
+        ><div class="licons"><i class="fa-regular fa-file-word"></i></div
+      ></a>
+      <a href="https://docs.google.com/spreadsheets/" target="_blank"
+        ><div class="licons"><i class="fa-regular fa-file-excel"></i></div
+      ></a>
+      <!-- <div class="licons"></div> -->
+      <!-- <div class="licons">1</div> -->
+    </div>
+    <!-- JAVASCRIPT -->
+    <script>
+      function searchBrave() {
+        var searchTerm = document.getElementById("search-input").value;
+        if (searchTerm.trim() !== "") {
+          var braveSearchUrl =
+            "https://search.brave.com/search?q=" +
+            encodeURIComponent(searchTerm);
+          window.open(braveSearchUrl, "_blank");
+        }
       }
-    }
-  </script>
-    
-</body>
+    </script>
+    <script
+      src="https://kit.fontawesome.com/97fcb74a5e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
